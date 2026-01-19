@@ -49,7 +49,7 @@ namespace EstructurasDatos_pilas
             if (balanceado && pila.Count == 0) Console.WriteLine(">>> Formula balanceada.");
             else Console.WriteLine(">>> Formula NO balanceada.");
         }
-
+          // Función recursiva que utiliza el concepto de pila para mover los discos
         static void EjecutarHanoi()
         {
             Console.Write("\nNumero de discos: ");
@@ -65,4 +65,5 @@ namespace EstructurasDatos_pilas
             ResolverHanoi(n - 1, aux, origen, dest);
         }
     }
+
 }
